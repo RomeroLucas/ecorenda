@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+    --backgroundColor: #f1f1f1;
+    --fontColor:  #cfdd26;
+    --primaryColor: #dde866; /*ALTERAR*/
+    --secondaryColor: ;
+    --shadowColor: #c3c634;
+    --buttonColor: #e9f09c;
+
+    --fontSmall: 1.4rem;
+    --fontMedium: 1.8rem;
+    --fontBig: 3.6rem;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* Nav non user */
+.navegador-nouser {
+    width: 100%;
+    text-align: right;
+}
+
+.navegador-nouser a {
+    width: 100px;
+    margin:  0 5px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--fontColor);
+    font-size: var(--fontMedium);
+    font-weight: 700;
+}
+/* Nav non user */
+
+
+.no-display {
+    display: none;
+}

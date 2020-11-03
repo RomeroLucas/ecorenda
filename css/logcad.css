@@ -1,0 +1,104 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/background/backondarightwid.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navegador-nouser a {
+    color: #fff;
+    text-shadow: 0px 0px 3px #ccc;
+    transition: .2s;
+}
+
+
+/* Lembrar de adicionar no global */
+.navegador-nouser a:hover {
+    border-bottom: 3px solid #fff;
+    transition: .2s;
+}
+/* Lembrar de adicionar no global */
+
+main {
+    width: 50vw;
+    margin: 8vh auto;
+    text-align: center;
+}
+
+img {
+    width: 20vw;
+    height: 20vh;
+}
+
+h4 {
+    color: var(--fontColor);
+    font-size: var(--fontBig);
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0px 0px 3px var(--shadowColor);
+}
+
+#forms-validacao {
+    
+    background: var(--primaryColor);
+    width: 28vw;
+    
+    padding: 15px 20px;
+    border-radius: 24px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    color: var(--fontColor);
+    font-size: var(--fontMedium); 
+    box-shadow: 0px 0px 3px var(--shadowColor);
+    outline: none;
+}
+
+input[type="text"] {
+    text-shadow: 0px 0px 3px #b9b9b9;
+}
+
+input[type='button'] {
+    cursor: pointer;
+    box-shadow: 0px 3px 3px #b9b9b9;
+}
+
+#forms-validacao a {
+    display: block;
+    width: 90%;
+    text-decoration: none;
+    color: #fff;
+    font-size: var(--fontSmall);
+    font-weight: bolder;
+    text-align: right;
+}
+
+
+#align-btn {
+    display: flex;
+    width: 35vw;
+    margin: 5px auto;
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+    width: 35px;
+    font-size: var(--fontBig);
+    font-weight: bolder;
+    align-items: center;
+    cursor: pointer;
+}

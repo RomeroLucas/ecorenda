@@ -1,0 +1,109 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/background/backondaleftwid.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navegador-nouser a {
+    width: 100px;
+    margin:  0 5px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--fontColor);
+    font-size: var(--fontMedium);
+    font-weight: 700;
+    transition: .2s;
+}
+
+.navegador-nouser a:hover {
+    border-bottom: 3px solid var(--fontColor);
+    transition: .2s;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 4fr 1fr 1fr 1fr;
+    width: 90vw;
+    height: 90vh;
+    margin: 15px auto;
+}
+
+h4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: var(--fontColor);
+    font-size: var(--fontBig);
+    font-weight: 700;
+    text-align: center;
+}
+
+aside {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #f1f1f1;
+    font-size: var(--fontMedium);
+    font-weight: 700;
+    text-shadow: 0px 0px 6px black;
+    text-align: center;
+    width: 20vw;
+    height: 20vh;
+    margin: auto;
+}
+
+#imagem {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 6px #fff;
+}
+
+
+p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #f1f1f1;
+    font-size: var(--fontBig);
+    font-weight: 700;
+    text-align: right;
+    text-shadow: 0px 0px 6px black;
+}
+
+span {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: #f1f1f1;
+    font-size: var(--fontBig);
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 0px 6px black;
+}
+
+#bugado {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    color: #f1f1f1;
+    font-size: var(--fontBig);
+    font-weight: 700;
+    text-shadow: 0px 0px 6px black;
+}
