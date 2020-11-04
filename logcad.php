@@ -11,13 +11,13 @@
 <body>
     <div class="background"></div>
     <nav class="navegador-nouser">
-        <a href="quemSomos.html">Quem Somos</a>
+        <a href="quemSomos.php">Quem Somos</a>
         <a href="#">Opção 1</a>
         <a href="#">Entrar</a>
     </nav>
 
     <main>
-        <a href="index.html">
+        <a href="index.php">
             <img src="./img/logo/imagem_eco_renda.png" alt="">
 
         </a>

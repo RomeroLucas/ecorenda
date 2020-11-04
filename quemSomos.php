@@ -12,9 +12,9 @@
     <div class="background"></div>
 
     <nav class="navegador-nouser">
-        <a href="quemSomos.html">Quem Somos</a>
+        <a href="quemSomos.php">Quem Somos</a>
         <a href="#">Opção 1</a>
-        <a href="logcad.html">Entrar</a>
+        <a href="logcad.php">Entrar</a>
     </nav>
 
     <div id="grid">
@@ -24,7 +24,7 @@
             Através do EcoRenda você conseguirá encontrar lugares que recebem ou compram seus residuos de maneira prática e simples
         </aside>
 
-        <a href="index.html" id="imagem">
+        <a href="index.php" id="imagem">
             <img src="./img/logo/imagem_eco_renda.png" >
         </a>
 
