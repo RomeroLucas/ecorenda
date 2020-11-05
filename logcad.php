@@ -1,3 +1,8 @@
+<?php
+    include 'conexao.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -38,11 +43,11 @@
             
             
                 <div class="forms no-display">
-                    <form action="" method="post">
-                        <input type="text" placeholder="Insira seu nome">
-                        <input type="password" placeholder="Insira sua senha">
-                        <input type="email" placeholder="Insira seu email">
-                        <input type="button" value="CADASTRAR">
+                    <form action="validacao.php" method="post">
+                        <input type="text" name="nome" placeholder="Insira seu nome">
+                        <input type="password" name="senha" placeholder="Insira sua senha">
+                        <input type="email" name="email" placeholder="Insira seu email">
+                        <input type="submit" value="CADASTRAR">
                     </form>
                 </div>
             </div>
