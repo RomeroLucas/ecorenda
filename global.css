@@ -15,9 +15,11 @@
     --shadowColor: #c3c634;
     --buttonColor: #e9f09c;
 
+    --fontExtraSmall: ;
     --fontSmall: 1.4rem;
     --fontMedium: 1.8rem;
     --fontBig: 3.6rem;
+    --fontExtraBig: ;
 }
 
 html, body {

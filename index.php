@@ -1,3 +1,7 @@
+<?php
+    include 'conexao.php';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,12 +15,12 @@
 <body>
     <div class="background"></div>
     <main>
-        <img src="./img/logo/logo2.png">
         <nav class="navegador-nouser">
             <a href="quemSomos.php">Quem Somos</a>
             <a href="#">Opção 1</a>
             <a href="logcad.php">Entrar</a>
         </nav>
+        <img src="./img/logo/logo2.png">
 
         <section>
 
@@ -39,6 +43,15 @@
     
             <div id="show-locations">
                 Lista de locais pertos
+                <div class="itemLista">
+                    <p>Nome Local</p>
+                    <span>endereço Local</span>
+                    <span>9:00 até 18:00</span>    
+                </div>
+
+                <?php
+                    include 'teste.php';
+                ?>
             </div>
         </section>
 

@@ -102,3 +102,65 @@ span {
     align-items: center;
     cursor: pointer;
 }
+
+
+
+/* Aqui começa as configs responsivas */
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .navegador-nouser a {
+        color: var(--fontColor);
+        text-shadow: 0px 0px 3px #ccc;
+        transition: .2s;
+    }
+    .navegador-nouser a:hover {
+        border-bottom: 3px solid var(--fontColor);
+        transition: .2s;
+    }
+
+
+    main {
+        width: 90%;
+        margin: 8vh auto;
+        text-align: center;
+    }
+
+    img {
+        width: 40vw;
+        height: 20vh;
+    }
+
+    #forms-validacao {
+    
+        background: var(--primaryColor);
+        width: 75%;
+        
+        padding: 15px 20px;
+        border-radius: 24px;
+    }
+
+    #align-btn {
+        display: flex;
+        width: 100%;
+        margin: 5px auto;
+        justify-content: space-between;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        margin: 5px auto;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        font-weight: 700;
+        color: var(--fontColor);
+        font-size: var(--fontMedium); 
+        box-shadow: 0px 0px 3px var(--shadowColor);
+        outline: none;
+    }
+
+}

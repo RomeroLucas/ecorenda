@@ -20,18 +20,20 @@
     <div id="grid">
         <h4>Como funciona</h4>
 
-        <aside>
-            Através do EcoRenda você conseguirá encontrar lugares que recebem ou compram seus residuos de maneira prática e simples
-        </aside>
-
         <a href="index.php" id="imagem">
             <img src="./img/logo/imagem_eco_renda.png" >
         </a>
 
         
+        
+        
         <p>Descarte correto</p>
         <span>+</span>
         <div id="bugado">Renda Extra</div>
+        
+        <aside>
+            Através do EcoRenda você conseguirá encontrar lugares que recebem ou compram seus residuos de maneira prática e simples
+        </aside>
     </div>
 </body>
 </html>
