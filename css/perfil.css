@@ -1,0 +1,271 @@
+
+
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/background/backwid.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navegador-nouser a:hover {
+    border-bottom: 3px solid var(--fontColor);
+    transition: .2s;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+
+img {
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    top: 5rem;
+    left: 40vw;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25vh;
+}
+
+section h3 {
+    color: var(--fontColor);
+    font-size: var(--fontBig);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#section-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.flex{
+    display:flex;
+}
+section label{
+    display: inline-block;
+}
+
+section label p {
+    padding-left: 25px;
+    color: var(--fontColor);
+    font-size: var(--fontMedium);
+    font-weight: 700;
+}
+/* alinhamento vertical btn */
+.invisible {
+    color: rgba(0, 0, 0, 0);
+}
+/* alinhamento vertical btn */
+section input[type="text"] {
+    width: 350px;
+    height: 50px;
+    background: var(--buttonColor);
+    font-size: var(--fontMedium);
+    color: var(--backgroundColor);
+    font-weight: 700;
+    text-shadow: 0px 0px 3px black;
+    border: none;
+    box-shadow: 0px 0px 6px var(--shadowColor);
+    margin: 0px 15px 5px 15px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;    
+}
+
+section input[type="button"] {
+    margin: 0px 15px 5px 15px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    background: var(--buttonColor);
+    font-size: var(--fontMedium);
+    color: var(--backgroundColor);
+    font-weight: 700;
+    text-shadow: 0px 0px 3px black;
+    cursor: pointer;
+    border: 1px solid var(--primaryColor);
+    border-width: 3px 0px 0px 4px;
+    box-shadow: 0px 0px 3px var(--shadowColor);
+}
+
+
+#show-locations {
+    width: 100%;
+    overflow: auto;
+    background: var(--primaryColor);
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: var(--backgroundColor);
+    font-weight: 700;
+    font-size: var(--fontBig);
+    text-align: center;
+}
+
+/* PERSONALIZAÇÃO ITENS DA LISTA DE ESTABELECIMENTOS */
+
+.itemLista {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    margin: 5px auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.itemLista p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    padding-left: 15px;
+    font-size: var(--fontMedium);
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+.itemLista span:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: left;
+    padding-left: 15px;
+    font-size: var(--fontSmall);
+    color: black;
+    font-weight: 500;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+.itemLista span:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: var(--fontSmall);
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+
+/* PERSONALIZAÇÃO ITENS DA LISTA DE ESTABELECIMENTOS */
+
+
+/* Aqui começa as configs responsivas */
+
+@media only screen and (max-width: 600px){
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30vh;
+    }
+    img {
+        width: 50vw;
+        height: 20vh;
+        position: absolute;
+        top: 10vh;
+        left: 25vw;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 3;
+    }
+
+
+    section label{
+        display: inline-block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section input[type="text"] {
+        width: 100%;
+        height: 50px;
+        background: var(--buttonColor);
+        font-size: var(--fontMedium);
+        color: var(--backgroundColor);
+        font-weight: 700;
+        text-shadow: 0px 0px 3px black;
+        border: none;
+        box-shadow: 0px 0px 6px var(--shadowColor);
+        margin: 0px auto 5px auto;
+        padding: 5px;
+        outline: none;
+        border-radius: 5px;    
+    }
+    
+    section input[type="button"] {
+        display: block;
+        margin: 0px auto 5px auto;
+        padding: 5px;
+        outline: none;
+        border-radius: 5px;
+        width: 60%;
+        height: 50px;
+        background: var(--buttonColor);
+        font-size: var(--fontMedium);
+        color: var(--backgroundColor);
+        font-weight: 700;
+        text-shadow: 0px 0px 3px black;
+        cursor: pointer;
+        border: 1px solid var(--primaryColor);
+        border-width: 3px 0px 0px 4px;
+        box-shadow: 0px 0px 3px var(--shadowColor);
+    }
+
+
+    #show-locations {
+        width: 95%;
+
+        background: var(--primaryColor);
+        margin: 0 auto 15px auto;
+        margin-top: 30px;
+        border-radius: 5px;
+        color: var(--backgroundColor);
+        font-weight: 700;
+        font-size: var(--fontBig);
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
