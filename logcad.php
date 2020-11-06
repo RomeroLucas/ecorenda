@@ -33,10 +33,10 @@
             <span class="gen"><</span>
             <div id="forms-validacao">
                 <div class="forms">
-                    <form action="" method="post">
-                        <input type="text" placeholder="Insira seu E-mail">
-                        <input type="text" placeholder="Insira sua senha">
-                        <input type="button" value="ENTRAR">
+                    <form action="entrar.php" method="post">
+                        <input type="text" name="usermail" placeholder="Insira seu E-mail">
+                        <input type="password" name="userpass" placeholder="Insira sua senha">
+                        <input type="submit" value="ENTRAR">
                         <a href="">Esqueci minha senha</a>
                     </form>
                 </div>

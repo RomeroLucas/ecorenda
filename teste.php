@@ -1,5 +1,6 @@
 <?php
 
+
     $consulta = 'select * from estabelecimentos;';
     $resultado = $conn->query($consulta);
 
