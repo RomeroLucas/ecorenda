@@ -21,5 +21,5 @@ function fechar() {
 
 
 logout.addEventListener('click', function() {
-    window.location.href = "http://localhost/EcoRenda_v1.01/ecorenda/logcad.php"
+    window.location.href = "http://www.ecorenda.com.br/logcad.php"
 })

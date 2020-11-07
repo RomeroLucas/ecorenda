@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     include 'conexao.php';
 
 
@@ -8,6 +10,8 @@
     $sql = "select email, senha from usuarios 
     where email = '{$usermail}' and senha = '{$userpass}'";
 
+    //criando a session             
+    $_SESSION["email"]=$usermail;
     
     $verificacao = mysqli_query($conn, $sql);
     $registro = mysqli_num_rows($verificacao);

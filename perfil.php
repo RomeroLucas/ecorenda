@@ -1,4 +1,7 @@
 <?php
+    session_start(); 
+    $email=$_SESSION["email"];
+
     include 'conexao.php';
 ?>
 
@@ -51,7 +54,7 @@
 
                 <label>
                     <p>Email</p>
-                    <input type="text" >
+                    <input type="text"  value="<?php echo $email?>"  >
                 </label>
 
                 <label>
