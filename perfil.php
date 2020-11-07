@@ -18,8 +18,8 @@
             <img src="./img/logo/icon.png" alt="Logo">
 
             <nav>
-                <input type="button" value="Meus dados" class="btn btn-light">
-                <input type="button" value="Favoritos" class="btn btn-light">
+                <input type="button" value="Meus dados" class="btn btn-light nav-item">
+                <input type="button" value="Favoritos" class="btn btn-light nav-item">
             </nav>
         </header>
 
@@ -30,34 +30,50 @@
         </main>
 
         <aside>
+            <button onclick="fechar()" id="fecha-aside">fechar</button>
 
         <form action="" method="get">
             <div class="meus-dados">
-            <p>Nome</p>
-                        <input type="text" >
-
-                        <p>Cep</p>
-                        <input type="text" >
-
-                        <p>Bairro</p>
-                        <input type="text" >
-            <p>Email</p>
+                <label>
+                    <p>Nome</p>
                     <input type="text" >
+                </label>
 
+                <label>
+                    <p>Cep</p>
+                    <input type="text" >
+                </label>
+
+                <label>
+                    <p>Bairro</p>
+                    <input type="text" >
+                </label>
+
+                <label>
+                    <p>Email</p>
+                    <input type="text" >
+                </label>
+
+                <label>
                     <p>Logradouro</p>
                     <input type="text" >
-            <p>Bairro</p>
-                    <input type="text" >
+                </label>
 
+                <label>
+                    <p>Bairro</p>
+                    <input type="text" >
+                </label>
+
+                <label>
                     <p>Numero</p>
                     <input type="text" >
-
+                </label>
 
 
                     <br>
-                    <button type="button" class="btn btn-success">Salvar alterações</button>
-                    <button type="button" class="btn btn-warning">Sair</button>
-                    <button type="button" class="btn btn-danger">Deletar conta</button>
+                    <button type="button" class="btn btn-success botao">Salvar alterações</button>
+                    <button type="button" class="btn btn-warning botao" id="logout">Sair</button>
+                    <button type="button" class="btn btn-danger botao">Deletar conta</button>
 
             </div>
         </form>
@@ -65,5 +81,7 @@
 
         </aside>
 
+
+        <script src="./js/menuPerfil.js"></script>
 </body>
 </html>

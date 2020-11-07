@@ -17,7 +17,6 @@
     <main>
         <nav class="navegador-nouser">
             <a href="quemSomos.php">Quem Somos</a>
-            <a href="#">Opção 1</a>
             <a href="logcad.php">Entrar</a>
         </nav>
         <img src="./img/logo/logo2.png">

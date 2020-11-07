@@ -17,7 +17,6 @@
     <div class="background"></div>
     <nav class="navegador-nouser">
         <a href="quemSomos.php">Quem Somos</a>
-        <a href="#">Opção 1</a>
         <a href="#">Entrar</a>
     </nav>
 

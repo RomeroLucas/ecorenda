@@ -1,5 +1,5 @@
 
-
+/* big containers start */
 header {
     position: absolute;
     display: flex;
@@ -9,7 +9,7 @@ header {
     height: 10vh;
     background: var(--primaryColor);
     border-bottom: 3px solid green;
-    box-shadow: 3px -1px 8px black;
+    border-right: 3px outset #ccc;
 }
 
 main {
@@ -19,6 +19,7 @@ main {
     width: 65vw;
     height: 100vh;
     overflow: auto;
+    box-shadow: 0px 0px 3px black inset;
 }
 
 aside {
@@ -27,11 +28,13 @@ aside {
     left: 0;
     width: 35vw;
     height: 90vh;
-    box-shadow: 3px -1px 8px black;
+    border-right: 3px outset #ccc;
     background: #ccc;
 }
+/* big containers end */
 
 
+/* filhos do header start */
 header img {
     
     background: #fff;
@@ -55,6 +58,10 @@ header nav input[type="button"] {
     padding: 0px 15px;
     cursor: pointer;
 }
+
+/* filhos do header end */
+
+/* filhos do main start */
 
 main .itemLista {
     display: grid;
@@ -109,6 +116,55 @@ main .itemLista span:nth-child(3) {
     text-shadow: 0px 0px 3px #fff;
 }
 
+/* filhos do main end */
+
+
+
+/* filhos do aside start */
+
+#fecha-aside {
+    display: none;
+}
+
+.meus-dados {
+    width: 90%;
+
+    margin: 15px auto;
+
+}
+
+.meus-dados label {
+    display: block;
+
+    width: 100%;
+    padding-left: 5px;
+}
+
+.meus-dados label p {
+    padding-left: 5px;
+    font-size: var(--fontSmall);
+    font-weight: bolder;
+}
+
+.meus-dados label input {
+    font-size: var(--fontMedium);
+    font-weight: bolder;
+    width: 80%;
+    padding: 5px 15px;
+    border-radius: 24px;
+    border-width: 0px 0px 3px 0px;
+    outline: none;
+}
+
+.botao {
+    font-size: var(--fontMedium);
+    margin: 15px;
+    padding: 5px 15px;
+}
+
+
+/* filhos aside end */
+
 
 
 /* Aqui começa as configs responsivas */
@@ -137,11 +193,10 @@ main .itemLista span:nth-child(3) {
     aside {
         display: none;
         position: absolute;
-        top: 10vh;
+        top: 15vh;
         left: 0;
-        width: 35vw;
-        height: 90vh;
-        background: red;
+        width: 100vw;
+        height: 85vh;
     }
 
     header img {
@@ -166,6 +221,10 @@ main .itemLista span:nth-child(3) {
         font-weight: bolder;
         padding: 0px 15px;
         cursor: pointer;
+    }
+
+    #fecha-aside {
+        display: block;
     }
 
 }

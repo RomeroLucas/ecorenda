@@ -22,3 +22,7 @@ if($conn) {
 }
 
 ?>
+<script src="./js/redirect.js"></script>
+<script>
+    redirect('logcad.php', 'Usuario cadastrado com sucesso')
+</script>

@@ -20,3 +20,8 @@
     }
 
 ?>
+
+<script src="./js/redirect.js"></script>
+<script>
+    redirect('logcad.php', 'Usuario ou senha incorretos')
+</script>
