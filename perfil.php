@@ -39,37 +39,32 @@
             <div class="meus-dados">
                 <label>
                     <p>Nome</p>
-                    <input type="text" >
+                    <input type="text" id="nome" name="nome">
                 </label>
 
                 <label>
-                    <p>Cep</p>
-                    <input type="text" >
-                </label>
-
-                <label>
-                    <p>Bairro</p>
-                    <input type="text" >
-                </label>
-
-                <label>
-                    <p>Email</p>
+                    <p>E-mail</p>
                     <input type="text"  value="<?php echo $email?>"  >
                 </label>
 
                 <label>
-                    <p>Logradouro</p>
-                    <input type="text" >
+                    <p>Cep</p>
+                    <input type="text" id="cep" name="cep">
                 </label>
 
                 <label>
                     <p>Bairro</p>
-                    <input type="text" >
+                    <input type="text" id="bairro" name="bairro">
                 </label>
 
                 <label>
-                    <p>Numero</p>
-                    <input type="text" >
+                    <p>Logradouro</p>
+                    <input type="text" id="logradouro" name="logradouro">
+                </label>
+
+                <label>
+                    <p>Número</p>
+                    <input type="text" id="numero" name="numero">
                 </label>
 
 
